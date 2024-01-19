@@ -1,0 +1,63 @@
+@import url('reset.css');
+
+body {
+  background-color: #f2f2f2; 
+}
+
+h2 {
+  font-size: 2rem;
+  color: #336699; 
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+p {
+  color: #555555; 
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(51, 102, 153, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+  border-bottom: 1px solid #33669980;
+}
+
+.banner h1 {
+  color: #336699;
+  background: -webkit-linear-gradient(#336699, #1a4d80);
+}
+
+.banner .banner-content button {
+  color: #336699;
+  border-image: linear-gradient(#4d90c7, #1a4d80);
+}
+
+#course-content .modules-list .module {
+  color: #555555;
+  border: 1px solid #336699;
+  background-color: #f2f2f2;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .1);
+}
+
+#transform-world {
+  border-top: 1px solid #33669980;
+  border-bottom: 1px solid #33669980;
+}
+
+#transform-world p {
+  color: #336699;
+  text-shadow: 3px 2px #fff;
+}
+
+#professional-challenges {
+  border-top: 1px solid #33669980;
+}
+
+footer {
+  background-image: linear-gradient(rgba(50, 102, 153, .0), rgba(50, 102, 153, .2));
+  border-top: 1px solid #33669980;
+}
+
+footer a {
+  color: #336699;
+}
